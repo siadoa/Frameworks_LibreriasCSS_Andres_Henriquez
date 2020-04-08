@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(82,171,168);
+}
+
+.redes{
+  font-size: 40px !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.size{
+  font-size: 50px !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.encabezado{
+  background-color: rgb();
+}
+
+.barra-nav, .barra{
+  background-color: rgb(66,98,120);
+}
+
+.barra-nav:hover{
+  background-color: rgba(93,138,168,0.9);
+}
+
+.principal{
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.seccion{
+  min-height: 25rem !important;
+}
+
+.comentario{
+  margin: 10px 0;
+}
