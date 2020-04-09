@@ -1,11 +1,41 @@
 body{
   background-image: url(../img/color.jpg), url(../img/principal.jpg);
   background-repeat: no-repeat, no-repeat;
-  background-size: 100% 8rem, cover;
+  background-size: 100% 12rem, cover;
   background-attachment: fixed, fixed;
 }
 
-.encabezado{min-height: 10rem !important;}
+nav{
+  background: none;
+  box-shadow: none;
+}
+
+.logo{
+  border-radius: 10px;
+  margin-top: 0.75rem;
+  height: 9rem !important;
+}
+
+.boton{
+  margin: 0.5rem 0.25rem !important;
+}
+
+.nav-columna a{
+  display: block;
+}
+
+.titulo{
+  padding: 0 0 0 0.85rem !important;
+}
+
+@media (max-width: 992px){
+  header{
+    margin-bottom: 5rem !important;
+  }
+  .titulo{
+    font-size: 26px !important;
+  }
+}
 
 .sociales{
   font-size: 42px;
@@ -16,14 +46,6 @@ body{
 div[class*="seccion"]{
   margin: 0 0.75rem 20px 0.75rem !important;
 }
-
-.logo{
-  border-radius: 10px;
-  margin: 15px;
-  height: 8rem;
-}
-
-.boton{margin: 0 5px !important;}
 
 .img-galeria, .img-articulo{
   margin-top: 10px;
