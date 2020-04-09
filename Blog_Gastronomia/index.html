@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Estilos de foundation-->
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <!--Estilos para iconos de foundation-->
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <!--Estilos para iconos de Font Awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--Estilos personalizados-->
+    <link rel="stylesheet" href="css/app.css">
+    <title>¡Que viva la Cocina!</title>
+  </head>
+  <body>
+    <!--Header-->
+    <div class="row fondo">
+      <div class="columns small-12 medium-4 encabezado">
+        <br>
+        <h1>¡Que viva la Cocina!</h1>
+        <h5 class="text-right font-italic">Recetas fáciles para todos</h5>
+      </div>
+      <div class="columns small-12">
+        <hr>
+      </div>
+    </div>
+    <!--Seccion Principal-->
+    <div class="row fondo">
+      <!--Columna izquierda-->
+      <div class="columns small-12 medium-4 seccion1">
+        <div class="callout menu-lateral">
+          <!--Buscador-->
+          <div class="row">
+            <div class="columns small-12">
+              <div class="input-group">
+                <span class="input-group-label <!--Color-->"><i class="fi-magnifying-glass"></i></span>
+                <input class="input-group-field" type="text" placeholder="Buscar">
+              </div>
+            </div>
+          </div>
+          <!--Menu navegacion-->
+          <div class="row">
+            <div class="columns small-12">
+              <ul class="vertical menu text-center">
+                <li class="menu-nav"><a href="#" class="button hollow">Inicio</a></li>
+                <li class="menu-nav"><a href="#" class="button hollow">Mi Plato Perfecto</a></li>
+                <li class="menu-nav"><a href="#" class="button hollow">Mis Recetas</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Favoritos-->
+          <div class="row hide-for-small-only">
+            <div class="columns small-12">
+              <hr>
+              <h5>Favoritos:</h5>
+              <div class="row"><!--Fila Superior-->
+                <div class="columns favs">
+                  <a href="#"><img src="img/parque1.jpg" class="thumbnail"></a>
+                </div>
+                <div class="columns favs">
+                  <a href="#"><img src="img/parque2.jpg" class="thumbnail"></a>
+                </div>
+                <div class="columns favs">
+                  <a href="#"><img src="img/rio1.jpg" class="thumbnail"></a>
+                </div>
+              </div>
+              <div class="row"><!--Fila Inferior-->
+                <div class="columns favs">
+                  <a href="#"><img src="img/rio2.jpg" class="thumbnail"></a>
+                </div>
+                <div class="columns favs">
+                  <a href="#"><img src="img/playa2.jpg" class="thumbnail"></a>
+                </div>
+                <div class="columns favs">
+                  <a href="#"><img src="img/playa1.jpg" class="thumbnail"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Historial-->
+          <div class="row hide-for-small-only">
+            <div class="columns small-12">
+              <h5>Historial:</h5>
+              <ul class="vertical menu">
+                <li><a href="#">Pollo al horno con patatas y cebolla</a></li>
+                <li><a href="#">Espaguetis al pesto</a></li>
+                <li><a href="#">Espaguetis Carbonara</a></li>
+                <li><a href="#">Salsa de tomate casera</a></li>
+                <li><a href="#">Calzone o pizza enrollada</a></li>
+                <li><a href="#">Macarrones con carne picada y tomate</a></li>
+                <li><a href="#">Dulce de leche</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contenido principal-->
+      <div class="columns small-12 medium-8 seccion2">
+        <!--Articulo 1-->
+        <div class="callout articulos">
+          <div class="columns small-12">
+            <h2 class="primary">Titulo Articulo 1</h2>
+            <p class="secondary">25 de Octubre de 2019</p>
+            <div class="text-center">
+              <img src="img/principal.jpg" class="thumbnail">
+            </div>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <hr>
+            <!-- Agregar Comentarios-->
+            <div class="columns row">
+              <label>
+                <textarea placeholder="Comentarios" class="comentarios"></textarea>
+              </label>
+            </div>
+            <div class="columns row text-right">
+              <button type="submit" name="buscar" class="button"><i class="fi-pencil"></i> Publicar</button>
+            </div>
+            <!--Comentarios publicados-->
+            <div class="columns small-12">
+              <!--Comentario 1-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-m1.png" class="img-comentario">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>Rocio_65: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+              <!--Comentario 2-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-m2.png" class="">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>July768: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+              <!--Comentario 3-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns shink small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-h2.png" class="">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>M-ramirez1: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Articulo 2-->
+        <div class="callout articulos">
+          <div class="columns small-12">
+            <h2 class="primary">Titulo Articulo 2</h2>
+            <p class="secondary">18 de Septiembre de 2019</p>
+            <div class="text-center">
+              <img src="img/paisaje.jpg" class="thumbnail">
+            </div>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <hr>
+            <!--Agregar Comentarios-->
+            <div class="columns row">
+              <label>
+                <textarea placeholder="Comentarios" class="comentarios"></textarea>
+              </label>
+            </div>
+            <div class="columns row text-right">
+              <button type="submit" name="buscar" class="button"><i class="fi-pencil"></i> Publicar</button>
+            </div>
+            <!--Comentarios publicados-->
+            <div class="columns small-12">
+              <!--Comentario 1-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-h1.png" class="img-comentario">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>AHenriquez9: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+              <!--Comentario 2-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-m3.png" class="">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>Karo-r09: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+              <!--Comentario 3-->
+              <div class="row callout small align-middle comentarios">
+                <div class="columns shink small-3 medium-2 img-comentario text-center">
+                  <img src="img/icono-h3.png" class="">
+                </div>
+                <div class="columns small-9 medium-10">
+                  <p class="comentarios"><b>Humberto_h65: </b></p>
+                  <p>Excelente post <i class="fi-like"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+  </body>
+</html>

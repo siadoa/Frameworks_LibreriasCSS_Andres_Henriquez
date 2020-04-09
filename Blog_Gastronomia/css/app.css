@@ -1,0 +1,45 @@
+body{
+  background: url(../img/fondo.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fondo{
+  background-color: rgba(255,150,200,0.4);
+}
+
+@media (min-width: 640px){
+  .encabezado{
+    border-right: 1px solid black;
+  }
+}
+
+div[class*="seccion"]{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.menu-lateral{
+  background-color: rgba(200,50,0,0.2);
+}
+
+.menu-nav{
+  margin-bottom: 0.15rem;
+}
+
+.favs{
+  padding: 0 0.15rem;
+}
+
+.articulos{
+  background-color: rgba(0,50,200,0.2);
+  padding: 1rem 0;
+}
+
+.comentarios{
+  margin-bottom: 0.25rem;
+}
+
+.img-comentario{
+  padding: 0;
+}
