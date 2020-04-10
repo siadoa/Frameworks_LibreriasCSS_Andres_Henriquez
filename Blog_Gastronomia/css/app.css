@@ -1,16 +1,33 @@
+:root{
+  --main-bg-color: rgba(6,13,20,0.4);
+  --bg-color-articles: rgba(52,111,171,0.5);
+  --bg-color-menulat: rgba(13,52,70,0.3);
+  --btn-colors: #0d3446;
+  --links: #E0E0E0
+}
+
 body{
   background: url(../img/fondo.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
+.links{
+  color: var(--links) !important;
+}
+
+.boton{
+  background-color: var(--btn-colors);
+  color: var(--links);
+}
+
 .fondo{
-  background-color: rgba(255,150,200,0.4);
+  background-color: var(--main-bg-color);
 }
 
 @media (min-width: 640px){
   .encabezado{
-    border-right: 1px solid black;
+    border-right: 1px solid #cacaca;
   }
 }
 
@@ -20,7 +37,7 @@ div[class*="seccion"]{
 }
 
 .menu-lateral{
-  background-color: rgba(200,50,0,0.2);
+  background-color: var(--bg-color-menulat);
 }
 
 .menu-nav{
@@ -32,7 +49,7 @@ div[class*="seccion"]{
 }
 
 .articulos{
-  background-color: rgba(0,50,200,0.2);
+  background-color: var(--bg-color-articles);
   padding: 1rem 0;
 }
 

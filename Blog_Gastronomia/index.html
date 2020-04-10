@@ -34,7 +34,7 @@
           <div class="row">
             <div class="columns small-12">
               <div class="input-group">
-                <span class="input-group-label <!--Color-->"><i class="fi-magnifying-glass"></i></span>
+                <span class="input-group-label boton"><i class="fi-magnifying-glass"></i></span>
                 <input class="input-group-field" type="text" placeholder="Buscar">
               </div>
             </div>
@@ -43,9 +43,9 @@
           <div class="row">
             <div class="columns small-12">
               <ul class="vertical menu text-center">
-                <li class="menu-nav"><a href="#" class="button hollow">Inicio</a></li>
-                <li class="menu-nav"><a href="#" class="button hollow">Mi Plato Perfecto</a></li>
-                <li class="menu-nav"><a href="#" class="button hollow">Mis Recetas</a></li>
+                <li class="menu-nav"><a href="#" class="button hollow links">Inicio</a></li>
+                <li class="menu-nav"><a href="#" class="button hollow links">Mi Plato Perfecto</a></li>
+                <li class="menu-nav"><a href="#" class="button hollow links">Mis Recetas</a></li>
               </ul>
             </div>
           </div>
@@ -53,27 +53,27 @@
           <div class="row hide-for-small-only">
             <div class="columns small-12">
               <hr>
-              <h5>Favoritos:</h5>
+              <h5 class="links">Favoritos:</h5>
               <div class="row"><!--Fila Superior-->
                 <div class="columns favs">
-                  <a href="#"><img src="img/parque1.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/pizza.jpg" class="thumbnail" title="Pizza"></a>
                 </div>
                 <div class="columns favs">
-                  <a href="#"><img src="img/parque2.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/arroz-pollo.jpg" class="thumbnail" title="Arroz con pollo"></a>
                 </div>
                 <div class="columns favs">
-                  <a href="#"><img src="img/rio1.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/guandu.jpg" class="thumbnail" title="Sopa de Guandú"></a>
                 </div>
               </div>
               <div class="row"><!--Fila Inferior-->
                 <div class="columns favs">
-                  <a href="#"><img src="img/rio2.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/napoleon.jpg" class="thumbnail" title="Postre Napoleon"></a>
                 </div>
                 <div class="columns favs">
-                  <a href="#"><img src="img/playa2.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/bandeja.jpg" class="thumbnail" title="Bandeja Paisa"></a>
                 </div>
                 <div class="columns favs">
-                  <a href="#"><img src="img/playa1.jpg" class="thumbnail"></a>
+                  <a href="#"><img src="img/arepa.jpg" class="thumbnail" title="Arepa de Huevo"></a>
                 </div>
               </div>
             </div>
@@ -81,15 +81,15 @@
           <!--Historial-->
           <div class="row hide-for-small-only">
             <div class="columns small-12">
-              <h5>Historial:</h5>
+              <h5 class="links">Historial:</h5>
               <ul class="vertical menu">
-                <li><a href="#">Pollo al horno con patatas y cebolla</a></li>
-                <li><a href="#">Espaguetis al pesto</a></li>
-                <li><a href="#">Espaguetis Carbonara</a></li>
-                <li><a href="#">Salsa de tomate casera</a></li>
-                <li><a href="#">Calzone o pizza enrollada</a></li>
-                <li><a href="#">Macarrones con carne picada y tomate</a></li>
-                <li><a href="#">Dulce de leche</a></li>
+                <li><a href="#" class="links">Pollo al horno con patatas y cebolla</a></li>
+                <li><a href="#" class="links">Espaguetis al pesto</a></li>
+                <li><a href="#" class="links">Espaguetis Carbonara</a></li>
+                <li><a href="#" class="links">Salsa de tomate casera</a></li>
+                <li><a href="#" class="links">Calzone o pizza enrollada</a></li>
+                <li><a href="#" class="links">Macarrones con carne picada y tomate</a></li>
+                <li><a href="#" class="links">Dulce de leche</a></li>
               </ul>
             </div>
           </div>
@@ -100,14 +100,27 @@
         <!--Articulo 1-->
         <div class="callout articulos">
           <div class="columns small-12">
-            <h2 class="primary">Titulo Articulo 1</h2>
-            <p class="secondary">25 de Octubre de 2019</p>
+            <h2 class="primary">Salsa Carbonara sin nata</h2>
+            <p class="links">25 de Octubre de 2019</p>
             <div class="text-center">
-              <img src="img/principal.jpg" class="thumbnail">
+              <img src="img/salsa-carbonara.jpg" class="thumbnail">
             </div>
             <p class="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              La <b>salsa carbonara sin nata</b> es la auténtica carbonara. La salsa carbonara original lleva yemas de huevo, queso, bacon y pimienta negra, pero no lleva nata.  Esta salsa, se cocina con el calor residual de la pasta (o arroz) y generalmente, nunca con el calor directo del fuego. Veamos a continuación como hacer un salsa carbonara sin nata para cuatro personas.<br>
+              <h5>INGREDIENTES:</h5>
+              <ul>
+                <li>4 yemas de huevo</li>
+                <li>200g de queso parmesano rallado</li>
+                <li>100g de tocino</li>
+                <li>sal y pimienta negra</li>
+              </ul>
+              <h5>PREPARACION:</h5>
+              <ol>
+                <li>En un bol, ponemos las yemas de huevo y les añadimos una pequeña pizca de sal. Añadimos el queso rallado y con ayuda de un tenedor, batimos todo bien hasta que nos quede una especie de pasta homogénea y de color anaranjado.</li>
+                <li>En una sartén a fuego alto y sin una gota de aceite, añadimos el tocino cortado en tiritas. El tocino ya tiene mucha grasa de por sí, así que no necesita más aceite. Cocinamos un par de minutos a fuego alto, hasta que quede crujiente.</li>
+                <li>Retiramos el exceso de aceite de la sartén y añadimos el tocino a la mezcla. Volvemos a mezclar brevemente todo para que todos los ingredientes queden bien integrados.</li>
+                <li>Si queremos hacer una pasta con esta salsa, luego de escurrir el agua de la pasta,  introducimos a la salsa carbonara sin nata. Mezclamos bien hasta que la pasta absorba la salsa. El propio calor residual cocinará el huevo que, no llegará a cuajarlo del todo para que quede más cremosa.</li>
+              </ol>
             </p>
             <hr>
             <!-- Agregar Comentarios-->
@@ -128,7 +141,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>Rocio_65: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Una receta fácil para practicarla en casa <i class="fi-heart"></i></p>
                 </div>
               </div>
               <!--Comentario 2-->
@@ -138,7 +151,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>July768: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Hola, me gustaría saber si puedo incorporar esta salsa en otras preparaciones. Muy buen post <i class="fi-star"></i></p>
                 </div>
               </div>
               <!--Comentario 3-->
@@ -148,7 +161,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>M-ramirez1: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Muy fácil de hacer <i class="fi-like"></i></p>
                 </div>
               </div>
             </div>
@@ -157,14 +170,15 @@
         <!--Articulo 2-->
         <div class="callout articulos">
           <div class="columns small-12">
-            <h2 class="primary">Titulo Articulo 2</h2>
-            <p class="secondary">18 de Septiembre de 2019</p>
+            <h2 class="primary">¿Cómo recalentar pizza sin horno?</h2>
+            <p class="links">18 de Septiembre de 2019</p>
             <div class="text-center">
-              <img src="img/paisaje.jpg" class="thumbnail">
+              <img src="img/pizza-recal.jpg" class="thumbnail">
             </div>
             <p class="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Muchas veces, nos ha sobrado pizza del día anterior que al día siguiente deseamos comer. Pero con frecuencia, no sabemos como recalentar pizza adecuadamente. Lo primero que hacemos es meterla al microondas durante unos segundos pero, el resultado no es el óptimo. La masa suele quedar muy blanda y no tan crocante como el día anterior.<br>
+              La mejor forma de recalentar la pizza sin necesidad de un horno es, en un sarten. Ponemos una sartén los suficientemente grande como para que quepan las porciones de pizza que deseemos calentar. Luego, sin echarle aceite ni nada, ponemos a fuego medio-bajo y colocamos la pizza encima, el tiempo necesario para que se caliente. Podemos tapar la sartén incluso para que se caliente mejor.<br>
+              Así, lograremos comernos pizza del día anterior, como si estuviese recien salida del horno.
             </p>
             <hr>
             <!--Agregar Comentarios-->
@@ -185,7 +199,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>AHenriquez9: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Excelente truco <i class="fi-like"></i> <i class="fi-like"></i></p>
                 </div>
               </div>
               <!--Comentario 2-->
@@ -195,7 +209,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>Karo-r09: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Muy útiles estos trucos <i class="fi-heart"></i></p>
                 </div>
               </div>
               <!--Comentario 3-->
@@ -205,7 +219,7 @@
                 </div>
                 <div class="columns small-9 medium-10">
                   <p class="comentarios"><b>Humberto_h65: </b></p>
-                  <p>Excelente post <i class="fi-like"></i></p>
+                  <p>Ya podré comer pizza para desayunar, jeje</p>
                 </div>
               </div>
             </div>
