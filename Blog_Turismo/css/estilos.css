@@ -1,59 +1,64 @@
-body{
-  background-image: url(../img/color.jpg), url(../img/fondo.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100% 12rem, cover;
-  background-attachment: fixed, fixed;
+body {
+    background-color: #37474f;
+    background-image: url(../img/fondo.jpg);
+    background-position: center 12rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-nav{
-  background: none;
-  box-shadow: none;
+nav {
+    background: none;
+    box-shadow: none;
 }
 
-.logo{
-  border-radius: 10px;
-  margin-top: 0.75rem;
-  height: 9rem !important;
+.logo {
+    border-radius: 10px;
+    margin-top: 0.75rem;
+    height: 9rem !important;
 }
 
-.boton{
-  margin: 0.5rem 0.25rem !important;
+.boton {
+    margin: 0.5rem 0.25rem !important;
 }
 
-.nav-columna a{
-  display: block;
+.nav-columna a {
+    display: block;
 }
 
-.titulo{
-  padding: 0 0 0 0.85rem !important;
+.titulo {
+    padding: 0 0 0 0.85rem !important;
 }
 
-@media (max-width: 992px){
-  header{
-    margin-bottom: 5rem !important;
-  }
-  .titulo{
-    font-size: 26px !important;
-  }
+@media (max-width: 992px) {
+    header {
+        margin-bottom: 5rem !important;
+    }
+    .titulo {
+        font-size: 26px !important;
+    }
 }
 
-.sociales{
-  font-size: 42px;
-  color: white;
-  margin-bottom: 20px;
+.sociales {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 20px;
 }
 
-div[class*="seccion"]{
-  margin: 0 0.75rem 20px 0.75rem !important;
+div[class*='seccion'] {
+    margin: 0 0.75rem 20px 0.75rem !important;
 }
 
-.img-galeria, .img-articulo{
-  margin-top: 10px;
+.img-galeria,
+.img-articulo {
+    margin-top: 10px;
 }
 
-.img-perfil{
-  margin: 15px 25% 0 25%;
-  width: 50%;
-  height: 20%;
+.img-perfil {
+    margin: 15px 25% 0 25%;
+    width: 50%;
+    height: 20%;
 }
-.texto{padding: 0 10px;}
+.texto {
+    padding: 0 10px;
+}
